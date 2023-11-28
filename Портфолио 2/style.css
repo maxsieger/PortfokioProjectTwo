@@ -57,10 +57,11 @@ a {
 }
 
 .text_in_two_section {
+    margin: 0;
     padding-left: 20px;
-    padding-top: 40px;
+    padding-top: 20px;
     color: white;
-    display: block;
+    padding-bottom: 25px;
 }
 
 .btn {
