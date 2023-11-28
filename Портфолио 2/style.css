@@ -35,6 +35,13 @@ a:focus {
     min-width: 650px;
 }
 
+#section-one {
+    background-color: rgb(68, 68, 220);
+    display: block;
+    height: 1000px;
+    min-width: 650px;
+}
+
 .text_in_one_section {
     margin: 0;
     padding-left: 200px;
@@ -58,7 +65,7 @@ a:focus {
 .t_section__container {
     background-color: rgb(55, 55, 203);
     height: 750px;
-    min-width: 6500px;
+    min-width: 650px;
 }
 
 .text_in_two_section {
@@ -79,6 +86,11 @@ a:focus {
     margin-bottom: 100px;
 }
 
+.btn:focus {
+    border: 3px solid rgb(190, 190, 190);
+    color: white;
+}
+
 .text_2_section {
     padding-left: 20px;
     padding-top: 10px;
@@ -89,6 +101,7 @@ a:focus {
 .footer {
     background-color: rgb(11, 0, 60);
     height: 400px;
+    min-width: 650px;
 }
 
 .footer__text {
@@ -108,7 +121,16 @@ a:focus {
 }
 
 .footer__list {
+    float: left;
     padding-top: 40px;
+    margin: 0;
+    list-style: none ;
+}
+
+.footer__list_2 {
+    float: right;
+    padding-top: 40px;
+    padding-right: 60px;
     margin: 0;
     list-style: none ;
 }
